@@ -11,6 +11,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    marginBottom: 10,
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -31,7 +32,7 @@ export default function Appbar() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            News
+            Spring Boot React FullSatack Application
           </Typography>
           <Button color="inherit">Login</Button>
         </Toolbar>

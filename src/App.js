@@ -1,12 +1,14 @@
 
 import './App.css';
-import './AppBar';
-import Appbar from './AppBar';
+import './components/AppBar';
+import Appbar from './components/AppBar';
+import Student from './components/Student';
 
 function App() {
   return (
     <div className="App">
       <Appbar/>
+      <Student/>
       
     </div>
   );
