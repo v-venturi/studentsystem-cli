@@ -1,8 +1,7 @@
 
 import './App.css';
-import './components/AppBar';
 import Appbar from './components/AppBar';
-import Student from './Student';
+import Student from './components/Student';
 
 function App() {
   return (
