@@ -2,7 +2,7 @@
 import './App.css';
 import './components/AppBar';
 import Appbar from './components/AppBar';
-import Student from './components/Student';
+import Student from './Student';
 
 function App() {
   return (
